@@ -1,0 +1,298 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+	v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, span, applet, object, iframe,
+ p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+ caption, aside, canvas, details, embed, 
+figure, figcaption, header, hgroup, 
+menu, output, ruby, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+aside, details, figcaption, figure, 
+footer, header, hgroup, menu {
+	display: block;
+}
+
+input[type='number'] {
+    -moz-appearance:textfield;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+body {
+	background:white;
+}
+#main{
+	width:71%;
+	height:auto;
+	margin:auto;
+	padding:0px;
+	background:white;
+	background:#87CEEB;
+}
+#header_wrapper{
+	width:100%;
+	height:15%;
+	margin:auto;
+}
+
+#banner{
+	float:right;
+	width:100%;
+}
+.menubar{
+	width:100%;
+	height:10%;
+	background:#87CEEB;
+	color:white;
+	font-size:18px;
+	font-family:ROCKWELL;
+}
+#menu{
+	padding:0px;
+	margin:0px;
+	line-height:40px;
+	float:left;
+	color:white;
+	background:#87CEEB;
+	
+}
+#menu li{
+	list-style:none;
+	display:inline;
+	
+}
+#menu a{
+	color:white;
+	text-decoration:none;
+	padding:8px;
+	margin:5px;
+	font-size:18px;
+	font-family:ROCKWELL;
+	
+}
+#menu a:hover{
+	color:orange;
+	font-weight:bolder;
+	text-decoration:underline;
+}
+#search_form{
+	float:right;
+	padding-right:8px;
+	margin-top:5px;
+	line-height:25px;
+	
+}
+.clearfix{
+    content:"";
+    clear: both;
+    display: table;
+	padding:0px;
+	margin:0px;
+	background: #87CEEB;
+}
+
+#page_wrap {
+	background:#D9EDF7;
+	float:right;
+	width:800px;
+	height:100%;
+	text-align:center;
+	margin-left:10px;
+	margin-bottom:0px;
+	
+	/* height:auto; */
+	
+}
+#myacc_wrap {
+	background:#D9EDF7;
+	float:left;
+	width:80%;
+	height:100%;
+	text-align:center;
+	margin-left:0px;
+	margin-bottom:0px;
+	
+	/* height:auto; */
+	
+}
+#qty{
+	
+	size: 4px;
+    width: 20%;
+    margin: 0px;
+	text-align:right;
+}
+#product_box{
+	
+}
+#single_product{
+	float:left;
+	margin-left:20px;
+	margin-top:10px;
+	padding:20px;
+	font-family:verdana;
+	font-size:20px;
+	background: #D9EDF7;
+}
+
+#single_product img {
+	border:2px solid black;
+}
+
+.sidebar{
+	/* float:left; */
+	width:20%;
+	background:#87CEEB;
+	height:100%;
+	padding:0px;
+	margin:0px;
+	
+}
+#sidebar_title{
+	background:lightblue;
+	color:black;
+	font-size:22px;
+	font-family:arial;
+	padding:5px;
+	text-align:center;
+	height:40px;
+	
+}
+#cats{
+	text-align:center;
+	
+}
+#cats li{
+	list-style:none;
+	margin:5px;
+	padding:2px 0px;
+	}
+
+#cats a{
+	text-decoration:none;
+	color:white;
+	padding:8px;
+	text-align:center;
+	margin:5px;
+	font-size:20px;
+	font-family:ROCKWELL;
+}
+#cats a:hover{
+	color:orange;
+	font-weight:bolder;
+	text-decoration:underline;
+}
+#shopping_cart{
+	width:100%;
+	height:7%;
+	background:black;
+	color:white;
+	margin-top:0px;
+	padding-top:0px;
+	float:right;
+	
+}
+#shopping_text{
+	float:right;
+	font-size:17px;
+	padding:5px;
+	line-height:40px;
+}
+
+#tblhead{
+	border:1px solid gray;
+	text-align:center;
+}
+#contact{
+	width:80%;
+	padding:0px;
+	margin:0px;
+	float:right;
+	text-align:center;
+	background-color:#D9EDF7;
+}
+.panel-info{
+	height:100%;
+	padding:0px;
+	margin:0px;
+}
+.cust_sidebar{
+	float:right;
+	width:20%;
+	background:#87CEEB;
+	height:100%;
+	padding:0px;
+	margin:0px;
+	
+}
+#cust_sidebar_title{
+	background:lightblue;
+	color:black;
+	font-size:22px;
+	font-family:arial;
+	padding:5px;
+	text-align:center;
+	height:40px;
+	
+}
+#cats{
+	text-align:center;
+	
+}
+#cats li{
+	list-style:none;
+	margin:5px;
+	padding:2px 0px;
+	}
+
+#cats a{
+	text-decoration:none;
+	color:white;
+	padding:8px;
+	text-align:center;
+	margin:5px;
+	font-size:20px;
+	font-family:ROCKWELL;
+}
+#cats a:hover{
+	color:orange;
+	font-weight:bolder;
+	text-decoration:underline;
+}
+
+#footer{
+   /*  position:fixed; */
+    bottom:0;
+	width:100%;
+	height:100px;
+	background:gray;
+	text-align:center; 
+	padding-top:0.5%;
+	clear:both;
+}
+#update_acc {
+	align:right;
+	text-align:center;
+	 background-color:lightgreen;
+	padding-left:20%;
+	margin-left:0%;
+	
+}
